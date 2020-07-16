@@ -10,7 +10,7 @@ display: flex;
 .header{
     display: flex;
     flex-direction: column;
-    width: 1280px;
+    width: 100%;
     height: 1300px;
     background: #FFFFFF;
 
@@ -44,7 +44,7 @@ display: flex;
 .container{
     display: flex;
 flex-direction: row;
-    width: 100%;
+    width: 1103px;
     height: 521px;
     padding: 40px 0px 0px 88px;
 margin: 0;
@@ -198,7 +198,6 @@ button:focus{
     outline: none;
 }
 .container2{
-    margin: auto;
 display: flex;
     flex-direction: column;
     width: 100%;
@@ -341,6 +340,10 @@ display: flex;
         width:768px ;
         height:1452px ;
     }
+    .owl-stage-outer{
+        width: 768px;
+        margin-left: 0;
+    }
     .logo{
         padding-left: 40px;
     }
@@ -388,6 +391,10 @@ display: flex;
         width:360px ;
         height:1252px ;
     }
+    .owl-stage-outer{
+        width: 360px;
+        margin-left: 0;
+    }
     .container{
         width: 320px;
         height: 515px;
@@ -399,7 +406,7 @@ display: flex;
 }
 
 .container2{
-    width: 100%;
+    width: 360px;
     height: 740px;
 }
 .logo2{
@@ -421,7 +428,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .list{
-    width: 100%;
+    width: 360px;
     height: 35px;
 }
 .list p{
@@ -431,6 +438,5 @@ display: flex;
 }
 .contbut button{
     position: relative;
-    margin: auto;
 }
 }
